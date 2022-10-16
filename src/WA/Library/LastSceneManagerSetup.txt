@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/scenes/UI/menu/menu.unity
+- path: Assets/scenes/in_clock.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
