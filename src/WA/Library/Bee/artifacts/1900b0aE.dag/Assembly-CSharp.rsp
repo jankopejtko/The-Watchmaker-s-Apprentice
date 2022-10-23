@@ -359,6 +359,7 @@
 "Assets/scripts/2D/slider/slider.cs"
 "Assets/scripts/2D/text/textHover.cs"
 "Assets/scripts/3D/enviroment/triggers/activation.cs"
+"Assets/testScript.cs"
 -langversion:9.0
 
 /deterministic

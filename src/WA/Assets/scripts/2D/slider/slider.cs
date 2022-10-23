@@ -1,4 +1,4 @@
-//Jan Kopejtko 2022
+//Jan Kopejtko, 2022
 
 using System.Collections.Generic;
 using System.Collections;
@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class slider : MonoBehaviour
 {
-    [SerializeField] Text sliderValue; //text that will display value taken from slider
+    [SerializeField] Text sliderValue; //text that will show value from slider
     [SerializeField] Slider sliderBox; //UI slider
 
     private void Awake()
