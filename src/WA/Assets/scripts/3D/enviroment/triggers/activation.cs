@@ -6,7 +6,7 @@ public class activation : MonoBehaviour
 {
     public bool active = false; //trigger if trigger collides with object
     public string objectTag; //object tag with trigger collides
-    void Start()
+    void Awake()
     {
         active = false; //reset trigger on first frame
     }
