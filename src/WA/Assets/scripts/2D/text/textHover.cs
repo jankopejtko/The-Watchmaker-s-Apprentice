@@ -19,11 +19,11 @@ public class textHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         {
             textList[index].color = hoverColor; //set color of the text to white
         }
-        try //if marker is null  return
+        try
         {
             marker.SetActive(true); //set visual marker as active (visible)
         }
-        catch 
+        catch //if marker is null return
         {
             return;
         }

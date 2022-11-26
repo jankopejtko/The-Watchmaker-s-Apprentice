@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//Jan Kopejtko, 2022
+
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class pohyb : MonoBehaviour

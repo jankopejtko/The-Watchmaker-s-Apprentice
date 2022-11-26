@@ -1,10 +1,9 @@
+//Jan Kopejtko, 2022
+
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Drawing;
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.AI;
 using Debug = UnityEngine.Debug;
+using UnityEngine.AI;
+using UnityEngine;
 
 public class movePointToPoint : MonoBehaviour
 {

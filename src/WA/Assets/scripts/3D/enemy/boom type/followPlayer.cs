@@ -1,7 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//Jan Kopejtko, 2022
+
 using UnityEngine.AI;
+using UnityEngine;
 
 public class followPlayer : MonoBehaviour
 {

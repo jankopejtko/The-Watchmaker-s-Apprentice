@@ -362,6 +362,7 @@
 "Assets/scripts/2D/scene/sceneLoader.cs"
 "Assets/scripts/2D/slider/slider.cs"
 "Assets/scripts/2D/text/textHover.cs"
+"Assets/scripts/3D/enemy/boom type/destroySelf.cs"
 "Assets/scripts/3D/enemy/boom type/followPlayer.cs"
 "Assets/scripts/3D/enemy/bug type/movePointToPoint.cs"
 "Assets/scripts/3D/enviroment/triggers/activation.cs"
