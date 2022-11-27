@@ -3,9 +3,9 @@
 using UnityEngine;
 
 //GO = Game Object
-//THIS = this gameobject that this script is attached to
+//THIS = gameobject that this script is attached to
 
-//this script is for boomber type enemy that will disable its movemnt if approached Player
+//this script is for boomber type enemy that will disable its movement if approached Player
 
 public class destroySelf : MonoBehaviour
 {
@@ -23,6 +23,7 @@ public class destroySelf : MonoBehaviour
         {
             FP.enabled = false; //disable enemy movment
             Debug.Log("BOOM!");
+            Destroy(other.gameObject, TTL); //destroy
             Destroy(parent, TTL); //destroy parent GO after TTL
         }
     }

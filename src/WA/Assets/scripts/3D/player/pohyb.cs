@@ -9,8 +9,7 @@ public class pohyb : MonoBehaviour
     //private Animator animator;
     public Rigidbody rb;
     
-    [SerializeField]
-    public float movementSpeed, rotationSpeed, jumpSpeed, gravity;
+    [SerializeField] private float movementSpeed, rotationSpeed, jumpSpeed, gravity;
     private Vector3 movementDirection = Vector3.zero;
     private bool playerGrounded;
     private Vector3 inputMovement = Vector3.zero;

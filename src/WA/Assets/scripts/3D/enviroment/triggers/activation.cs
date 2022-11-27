@@ -3,7 +3,7 @@
 using UnityEngine;
 
 //GO = GameObject
-//THIS = this gameobject that this script is attached to
+//THIS = gameobject that this script is attached to
 
 //Main goal of this script is to determine if GO entered/quitted THIS collider
 

@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class followPlayer : MonoBehaviour
 {
-    [SerializeField] public GameObject follow;
+    GameObject follow;
     private NavMeshAgent agent;
 
     private void Start()
     {
+        follow = GameObject.Find("Player");
         agent = GetComponent<NavMeshAgent>();
     }
     private void Update()
