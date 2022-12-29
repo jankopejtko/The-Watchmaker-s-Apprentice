@@ -2,11 +2,10 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class pohyb : MonoBehaviour
 {
     private CharacterController characterController;
-    //private Animator animator;
+    [SerializeField] private Animator animator;
     public Rigidbody rb;
     
     [SerializeField] private float movementSpeed, rotationSpeed, jumpSpeed, gravity;
@@ -17,7 +16,6 @@ public class pohyb : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        //animator = GetComponent<Animator>();
         Cursor.visible = false;
     }
 
@@ -36,13 +34,17 @@ public class pohyb : MonoBehaviour
         if (Input.GetButton("Jump") && playerGrounded)
         {
             movementDirection.y =+ jumpSpeed;
-            //animator.SetBool("isJumping", true);
-            //animator.SetBool("isRunning", false);
+            animator.SetBool("isJumping", true);
+            animator.SetBool("isRunning", false);
+            animator.SetBool("isIdle", false);
+            animator.SetBool("isBackRunning", false);
         }
         else 
         {
-            //animator.SetBool("isJumping", false);
-            //animator.SetBool("isRunning", true);
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isRunning", true);
+            animator.SetBool("isIdle", true);   
+            animator.SetBool("isBackRunning", true);
         }
         
         //move one frame
@@ -50,9 +52,9 @@ public class pohyb : MonoBehaviour
         characterController.Move(movementDirection * Time.deltaTime);
 
         //animations
-        //animator.SetBool("isRunning", Input.GetAxisRaw("Vertical") > 0);
-        //animator.SetBool("isBackRunning", Input.GetAxisRaw("Vertical") < 0);
-        //animator.SetBool("isIdle", Input.GetAxisRaw("Vertical") == 0);
+        animator.SetBool("isRunning", Input.GetAxisRaw("Vertical") > 0);
+        animator.SetBool("isBackRunning", Input.GetAxisRaw("Vertical") < 0);
+        animator.SetBool("isIdle", Input.GetAxisRaw("Vertical") == 0);
 
         if (rb.position.y <= -15f)
         {

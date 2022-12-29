@@ -13,5 +13,29 @@ EditorBuildSettings:
     guid: 091dad47e21e9be4588bbf3ce4947256
   - enabled: 1
     path: Assets/scenes/UI/menu/credits.unity
-    guid: ba642b442f311a14593003132576d1cc
+    guid: 9626d63bf8fa8b54389c70a146ed1846
+  - enabled: 1
+    path: Assets/scenes/in_tower.unity
+    guid: a47df9106de23b643865888cced5f724
+  - enabled: 1
+    path: Assets/scenes/in_clock.unity
+    guid: 389cb5afacbda5f48ae3d934c2d2b709
+  - enabled: 1
+    path: Assets/scenes/levels/level_1.unity
+    guid: 3327825a559a20546ad5cb1dcef42eed
+  - enabled: 1
+    path: Assets/scenes/levels/level_2.unity
+    guid: 940e99bccaeb3d94ebc2d92f03e9bcbd
+  - enabled: 1
+    path: Assets/scenes/levels/level_3.unity
+    guid: 1b8903103f97a0b4980cd562974a782a
+  - enabled: 1
+    path: Assets/scenes/levels/level_4.unity
+    guid: e9e373952edfdf24bb02111ba9e5269a
+  - enabled: 1
+    path: Assets/scenes/levels/level_5.unity
+    guid: 60e43183513dbca45905b760c9163641
+  - enabled: 1
+    path: Assets/scenes/levels/level_6.unity
+    guid: bd0e628f2b791cf47b7cfc73affcedf6
   m_configObjects: {}
