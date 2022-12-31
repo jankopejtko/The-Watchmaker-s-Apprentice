@@ -18,7 +18,6 @@ public class pohyb : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         Cursor.visible = false;
     }
-
     void Update()
     {
         playerGrounded = characterController.isGrounded;
@@ -60,6 +59,5 @@ public class pohyb : MonoBehaviour
         {
             FindObjectOfType<event_manager>().EndGame();
         }
-
     }
 }
