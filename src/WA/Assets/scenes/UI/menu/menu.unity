@@ -674,7 +674,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 419317737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15f803ebb951f1e49903c1519a396ebb, type: 3}
+  m_Script: {fileID: 11500000, guid: c3e93432d7ba81b4fb8f381517960558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &464721414
@@ -1475,7 +1475,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 419317741}
-        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
+        m_TargetAssemblyTypeName: buttonBehaviour, Assembly-CSharp
         m_MethodName: loadScene
         m_Mode: 5
         m_Arguments:
@@ -1709,7 +1709,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 419317741}
-        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
+        m_TargetAssemblyTypeName: buttonBehaviour, Assembly-CSharp
         m_MethodName: loadScene
         m_Mode: 5
         m_Arguments:
@@ -2161,7 +2161,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 419317741}
-        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
+        m_TargetAssemblyTypeName: buttonBehaviour, Assembly-CSharp
         m_MethodName: loadScene
         m_Mode: 5
         m_Arguments:
@@ -2664,7 +2664,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 419317741}
-        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
+        m_TargetAssemblyTypeName: buttonBehaviour, Assembly-CSharp
         m_MethodName: leaveGame
         m_Mode: 1
         m_Arguments:

@@ -1896,6 +1896,7 @@ GameObject:
   - component: {fileID: 7188427345735321457}
   - component: {fileID: 7188427345735321458}
   - component: {fileID: 7188427345735321456}
+  - component: {fileID: 3857911171693673431}
   m_Layer: 0
   m_Name: Player_inTower
   m_TagString: Player
@@ -1976,6 +1977,18 @@ MonoBehaviour:
   rotationSpeed: 0.5
   jumpSpeed: 6
   gravity: 9.14
+--- !u!114 &3857911171693673431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188427345735321468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91ac37a6980c61e43968713d7678fcb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7188427345893697918
 GameObject:
   m_ObjectHideFlags: 0

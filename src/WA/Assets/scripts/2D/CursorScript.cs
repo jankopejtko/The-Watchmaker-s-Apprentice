@@ -9,4 +9,8 @@ public class CursorScript : MonoBehaviour
         //Set Cursor visibility
         Cursor.visible = visible;
     }
+    public static void setVisibility(bool visible) 
+    {
+        Cursor.visible = visible;
+    }
 }

@@ -20,7 +20,7 @@ public class pendulumRotate : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (enabledRotation) 
+        if (enabledRotation)
         {
             transform.localRotation = Quaternion.Euler(maximumAngle * MathF.Sin((Time.time + delay) * speed) , 0f, 0f);
         }
