@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class showCanvas : MonoBehaviour
 {
-    [SerializeField] private activation activation;
-    [SerializeField] private Canvas canvas;
+    [SerializeField] activation activation;
+    [SerializeField] Canvas canvas;
     void Update()
     {
         if (activation.active == true) 
@@ -25,3 +25,4 @@ public class showCanvas : MonoBehaviour
         canvas.enabled = false;
     }
 }
+//todo comment code

@@ -21,3 +21,4 @@ public class collisionDestroy : MonoBehaviour
         else Debug.Log("tag not prefered");
     }
 }
+//todo comment code

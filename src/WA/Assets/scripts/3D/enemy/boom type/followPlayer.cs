@@ -18,3 +18,4 @@ public class followPlayer : MonoBehaviour
         agent.destination = follow.transform.position;
     }
 }
+//todo comment code

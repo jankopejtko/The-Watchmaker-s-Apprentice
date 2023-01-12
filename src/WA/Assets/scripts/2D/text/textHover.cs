@@ -8,10 +8,10 @@ using UnityEngine;
 public class textHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     //SerializeField will protect the private variable but they will be still visible in editor
-    [SerializeField] private List<Text> textList; //GUI text from menu bar that will change color on hover
-    [SerializeField] private GameObject marker; //Game object that indicates selected button (only for menu text)
-    public Color baseColor; //from editor select color of text that is not hovered
-    public Color hoverColor; //from editor select color of text that is hovered
+    [SerializeField] List<Text> textList; //GUI text from menu bar that will change color on hover
+    [SerializeField] GameObject marker; //Game object that indicates selected button (only for menu text)
+    [SerializeField] Color baseColor; //from editor select color of text that is not hovered
+    [SerializeField] Color hoverColor; //from editor select color of text that is hovered
 
     public void OnPointerEnter(PointerEventData eventData) //script will execute when cursor hover the object that this script is attached on
     {

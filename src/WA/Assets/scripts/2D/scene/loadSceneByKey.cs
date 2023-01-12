@@ -16,6 +16,7 @@ public class loadSceneByKey : MonoBehaviour
     }
     private void Update()
     {
+        //check every frame
         backToMenu(key,scene);
     }
 }

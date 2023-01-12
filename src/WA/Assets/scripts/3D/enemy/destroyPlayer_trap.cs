@@ -21,3 +21,4 @@ public class destroyPlayer_trap : MonoBehaviour
         }
     }
 }
+//todo comment code

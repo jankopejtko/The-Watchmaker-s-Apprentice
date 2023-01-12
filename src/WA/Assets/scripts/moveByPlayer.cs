@@ -1,3 +1,5 @@
+//Jan Kopejtko, 2022
+
 using UnityEngine;
 
 public class moveByPlayer : MonoBehaviour
@@ -33,3 +35,4 @@ public class moveByPlayer : MonoBehaviour
         }
     }
 }
+//todo comment code

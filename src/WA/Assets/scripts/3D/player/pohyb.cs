@@ -61,3 +61,4 @@ public class pohyb : MonoBehaviour
         }
     }
 }
+//todo comment code

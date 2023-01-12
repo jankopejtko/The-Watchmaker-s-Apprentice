@@ -24,3 +24,4 @@ public class quickMenu : MonoBehaviour
         else Time.timeScale = 1;
     }
 }
+//todo comment code

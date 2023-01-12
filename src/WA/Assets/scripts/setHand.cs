@@ -19,3 +19,4 @@ public class setHand : MonoBehaviour
         hand.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 5f);
     }
 }
+//todo comment code
